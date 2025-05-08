@@ -50,8 +50,8 @@
     if (products.length <= 0) {
       return null;
     } else {
-      const expensiveProduct = products.reduce((maxPriceProd, currProd) => {
-        return currProd.price > maxPriceProd.price ? currProd : maxPriceProd;
+      const expensiveProduct = products.reduce((maxPriceProduct, currProduct) => {
+        return currProduct.price > maxPriceProduct.price ? currProduct : maxPriceProduct;
       }, products[0]);
       return expensiveProduct;
     }
