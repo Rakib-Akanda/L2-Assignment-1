@@ -8,7 +8,7 @@ This repository contains solutions to 8 core TypeScript problems, covering funct
 
 In TypeScript, we can easily declare types using type and interface. The type keyword is mainly used for both objects and primitive data types, while interface is used specifically for objects.
 
-### : Declaration
+###  Declaration
 
 ```ts
 type TProduct = {
