@@ -29,6 +29,7 @@ interface IUser {
 
 A union type behaves like an OR. In a TStudent type that uses union, all properties of either TStudentName or TStudentType are required — but not both. On the other hand, an intersection type requires all the properties from both TStudentName and TStudentType. Using type or interface makes the code more readable and maintainable. 
 
+###  Declaration
 ```ts
 type TStudentName = {
   name: string;
